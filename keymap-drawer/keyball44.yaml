@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -38,11 +38,11 @@ layers:
   - {t: /, s: '?'}
   - NUM
   - $$mdi:apple-keyboard-option$$
-  - NUM
   - $$mdi:apple-keyboard-command$$
+  - NUM
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-right-click-outline$$
   - SYM
   - FUN
   NUM:
@@ -59,17 +59,17 @@ layers:
   - '0'
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - MUTE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - RETURN
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -78,16 +78,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - <
+  - '>'
+  - '?'
   - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
   - SYM
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
@@ -98,7 +98,7 @@ layers:
   - Gui+R
   - Gui+T
   - Gui+Y
-  - Gui+U
+  - $$mdi:arrow-up-bold$$
   - Gui+I
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -109,9 +109,9 @@ layers:
   - Gui+D
   - Gui+F
   - Gui+G
-  - Gui+H
-  - Gui+J
-  - Gui+K
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - Gui+L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
@@ -128,11 +128,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - $$mdi:apple-keyboard-option$$
-  - {t: QWRT, type: held alternate}
   - $$mdi:apple-keyboard-command$$
+  - {t: NUM, type: held alternate}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
