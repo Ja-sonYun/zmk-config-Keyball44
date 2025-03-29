@@ -56,10 +56,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W             &kp E      &kp R    &kp T                 &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
-&kp LCTRL       &kp A  &kp S             &kp D      &kp F    &kp G                 &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X             &kp C      &kp V    &kp B                 &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &sl 1
-&kp LEFT_ALT    &sl 1  &kp LEFT_COMMAND  &kp SPACE  &kp TAB             &kp ENTER  &sl 2                                        &sl 3
+&kp TAB         &kp Q  &kp W             &kp E      &kp R      &kp T                 &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
+&kp LCTRL       &kp A  &kp S             &kp D      &kp F      &kp G                 &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X             &kp C      &kp V      &kp B                 &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &sl 1
+&kp LEFT_ALT    &sl 1  &kp LEFT_COMMAND  &kp SPACE  &mkp LCLK             &kp ENTER  &sl 2                                        &sl 3
             >;
         };
 
@@ -69,7 +69,7 @@
 &kp ESC           &kp NUMBER_1       &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp BACKSLASH
 &kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE    &trans        &trans                       &trans        &trans        &trans        &trans        &trans        &kp GRAVE
 &kp LEFT_SHIFT    &trans             &trans            &trans        &trans        &trans                       &trans        &trans        &trans        &trans        &trans        &kp RIGHT_SHIFT
-&trans            &trans             &kp LEFT_COMMAND  &kp SPACE     &kp TAB                         &kp ENTER  &sl 2                                                                 &trans
+&trans            &trans             &kp LEFT_COMMAND  &kp SPACE     &mkp RCLK                       &kp ENTER  &sl 2                                                                 &trans
             >;
         };
 
@@ -96,10 +96,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&to 0   &trans  &trans     &trans  &trans     &trans              &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans     &trans  &trans     &trans              &kp PAGE_UP    &mkp LCLK  &sl 5   &mkp RCLK  &mkp MCLK  &sl 6
-&trans  &trans  &trans     &trans  &trans     &trans              &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &mkp LCLK  &sl 5   &mkp RCLK              &trans  &trans                                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &to 0  &to 0      &to 0  &to 0      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &to 0  &mkp LCLK  &sl 5  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &to 0  &to 0      &to 0  &to 0      &trans     &sl 1
+&trans  &sl 1   &trans  &trans  &trans              &trans  &sl 2                                          &sl 3
             >;
         };
 
