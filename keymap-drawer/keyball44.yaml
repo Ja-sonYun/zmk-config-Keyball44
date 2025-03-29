@@ -316,7 +316,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   LeftCommand:
-  - $$mdi:keyboard-esc$$
+  - Gui+$$mdi:keyboard-tab$$
   - Gui+Q
   - Gui+W
   - Gui+E
