@@ -36,15 +36,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$'}
+  - NUM
   - $$mdi:apple-keyboard-option$$
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$'}
+  - NUM
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: FUN, h: '$$mdi:gesture-tap-hold$$'}
+  - SYM
+  - FUN
   NUM:
   - $$mdi:keyboard-esc$$
   - '1'
@@ -88,7 +88,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: SYM, h: '$$mdi:gesture-tap-hold$$'}
+  - SYM
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
   - $$mdi:keyboard-esc$$
@@ -128,7 +128,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - $$mdi:apple-keyboard-option$$
-  - {t: QWRT, h: '$$mdi:gesture-tap-hold$$', type: held alternate}
+  - {t: QWRT, type: held alternate}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-tab$$
@@ -178,7 +178,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: FUN, h: '$$mdi:gesture-tap-hold$$'}
+  - FUN
   - {type: held}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -216,15 +216,15 @@ layers:
   - {t: QWRT, h: toggle}
   - {t: QWRT, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$'}
+  - NUM
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: NUM, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - NUM
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SYM, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: FUN, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - SYM
+  - FUN
   SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
