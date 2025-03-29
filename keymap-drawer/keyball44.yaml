@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - NUM
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - LeftCommand
   - NUM
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
@@ -85,7 +85,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - NUM
-  - $$mdi:keyboard-space$$
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -315,3 +315,48 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  LeftCommand:
+  - $$mdi:keyboard-esc$$
+  - Gui+Q
+  - Gui+W
+  - Gui+E
+  - Gui+R
+  - Gui+T
+  - Gui+Y
+  - Gui+U
+  - Gui+I
+  - Gui+O
+  - Gui+P
+  - {t: 'Gui+$$mdi:backspace$$', type: backspace}
+  - Gui+$$mdi:apple-keyboard-control$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+G
+  - Gui+H
+  - Gui+J
+  - Gui+K
+  - Gui+L
+  - {t: Gui+;, s: 'Gui+:'}
+  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
+  - Gui+$$mdi:apple-keyboard-shift$$
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+B
+  - Gui+N
+  - Gui+M
+  - {t: 'Gui+,', s: Gui+<}
+  - {t: Gui+., s: Gui+>}
+  - {t: Gui+/, s: 'Gui+?'}
+  - NUM
+  - Gui+$$mdi:apple-keyboard-option$$
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-space$$
+  - FUN
