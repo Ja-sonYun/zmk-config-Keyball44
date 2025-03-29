@@ -134,7 +134,7 @@
 
         LeftCommand {
             bindings = <
-&kp ESC        &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)              &kp LG(Y)      &kp LG(U)  &kp LG(I)      &kp LG(O)    &kp LG(P)     &kp LG(BSPC)
+&kp LG(TAB)    &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)              &kp LG(Y)      &kp LG(U)  &kp LG(I)      &kp LG(O)    &kp LG(P)     &kp LG(BSPC)
 &kp LG(LCTRL)  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)              &kp LG(H)      &kp LG(J)  &kp LG(K)      &kp LG(L)    &kp LG(SEMI)  &kp LG(RET)
 &kp LG(LSHFT)  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)              &kp LG(N)      &kp LG(M)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(FSLH)  &mo 2
 &kp LG(LALT)   &trans     &trans     &trans     &trans                    &trans  &kp LG(SPACE)                                                       &mo 3
