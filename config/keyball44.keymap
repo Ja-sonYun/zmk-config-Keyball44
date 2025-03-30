@@ -82,8 +82,8 @@
             >;
         };
 
-        number_or_scroll_layer {
-            label = "NUM";
+        number_and_scroll_layer {
+            label = "NUM_AND_SCROLL";
             bindings = <
 &kp ESC           &kp EXCLAMATION   &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                 &kp LCTRL      &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
 &kp LEFT_CONTROL  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6   &kp N7         &kp N8         &kp N9                &kp N0                 &kp RETURN
@@ -92,8 +92,8 @@
             >;
         };
 
-        function_or_snipe_layer {
-            label = "FUN";
+        function_and_snipe_layer {
+            label = "FUNC_AND_SNIPE";
             bindings = <
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6              &kp F7  &kp F8  &kp F9  &kt F10  &kp F11  &kp F12
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans              &trans  &trans  &trans  &trans   &trans   &trans
