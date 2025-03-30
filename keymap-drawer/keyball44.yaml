@@ -39,8 +39,8 @@ layers:
   - NUM_AND_SCROLL
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - NUM_AND_SCROLL
   - $$mdi:keyboard-space$$
+  - NUM_AND_SCROLL
   - $$mdi:mouse-left-click-outline$$
   - SHIFT_SYM
   - SYM
@@ -84,8 +84,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Gui+$$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - NUM_AND_SCROLL
   - Gui+$$mdi:keyboard-space$$
+  - NUM_AND_SCROLL
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -129,8 +129,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - $$mdi:keyboard-space$$
+  - {type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - {t: 'Gui+$$mdi:keyboard-space$$', type: held alternate}
@@ -181,7 +181,7 @@ layers:
   - FUNC_AND_SNIPE
   - {type: held}
   SHIFT_SYM:
-  - $$mdi:keyboard-esc$$
+  - Gui+$$mdi:keyboard-esc$$
   - Gui+Q
   - Gui+W
   - Gui+E
@@ -193,7 +193,7 @@ layers:
   - '{'
   - '}'
   - '~'
-  - $$mdi:apple-keyboard-control$$
+  - Gui+$$mdi:apple-keyboard-control$$
   - Gui+A
   - Gui+S
   - Gui+D
@@ -205,7 +205,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - ':'
   - '"'
-  - $$mdi:apple-keyboard-shift$$
+  - Gui+$$mdi:apple-keyboard-shift$$
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -217,10 +217,10 @@ layers:
   - '>'
   - '?'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - Gui+$$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - NUM_AND_SCROLL
   - Gui+$$mdi:keyboard-space$$
+  - NUM_AND_SCROLL
   - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
