@@ -46,7 +46,7 @@ layers:
   - SYM
   - FUNC_AND_SNIPE
   SYM:
-  - $$mdi:keyboard-esc$$
+  - Gui+$$mdi:keyboard-esc$$
   - Gui+Q
   - Gui+W
   - Gui+E
@@ -58,7 +58,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-control$$
+  - Gui+$$mdi:apple-keyboard-control$$
   - Gui+A
   - Gui+S
   - Gui+D
@@ -82,7 +82,7 @@ layers:
   - '>'
   - '?'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - Gui+$$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - NUM_AND_SCROLL
   - Gui+$$mdi:keyboard-space$$
