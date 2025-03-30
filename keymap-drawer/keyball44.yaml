@@ -76,10 +76,10 @@ layers:
   - C
   - V
   - B
-  - {t: '=', s: +}
+  - N
   - {t: '-', s: _}
-  - <
-  - '>'
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
   - '?'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -102,7 +102,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - '1'
   - '2'
@@ -121,10 +121,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '=', s: +}
+  - N
   - {t: '-', s: _}
-  - <
-  - '>'
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
   - '?'
   - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -211,10 +211,10 @@ layers:
   - Gui+C
   - Gui+V
   - Gui+B
-  - +
+  - N
   - _
-  - <
-  - '>'
+  - +
+  - '|'
   - '?'
   - $$mdi:apple-keyboard-shift$$
   - Gui+$$mdi:apple-keyboard-option$$
