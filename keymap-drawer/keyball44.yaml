@@ -39,9 +39,9 @@ layers:
   - NUM_AND_SCROLL
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-space$$', h: NUM_AND_SCROLL}
+  - {t: '$$mdi:keyboard-tab$$', h: NUM_AND_SCROLL}
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-tab$$
+  - $$mdi:mouse-left-click-outline$$
   - SHIFT_SYM
   - SYM
   - FUNC_AND_SNIPE
