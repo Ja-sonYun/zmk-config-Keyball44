@@ -39,9 +39,9 @@ layers:
   - NUM_AND_SCROLL
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - NUM_AND_SCROLL
+  - {t: '$$mdi:keyboard-space$$', h: NUM_AND_SCROLL}
   - $$mdi:keyboard-space$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:keyboard-tab$$
   - SHIFT_SYM
   - SYM
   - FUNC_AND_SNIPE
@@ -102,7 +102,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - '1'
   - '2'
@@ -122,17 +122,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - N
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: \, s: '|'}
+  - M
+  - <
+  - '>'
   - '?'
   - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
   - {type: held alternate}
   - $$mdi:keyboard-space$$
-  - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: 'Gui+$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   FUNC_AND_SNIPE:
@@ -189,9 +189,9 @@ layers:
   - Gui+T
   - Gui+Y
   - Gui+U
-  - $$mdi:arrow-up-bold$$
-  - '{'
-  - '}'
+  - Gui+I
+  - Gui+O
+  - Gui+P
   - '~'
   - Gui+$$mdi:apple-keyboard-control$$
   - Gui+A
@@ -200,21 +200,21 @@ layers:
   - Gui+F
   - Gui+G
   - Gui+H
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - ':'
-  - '"'
+  - Gui+J
+  - Gui+K
+  - Gui+L
+  - {t: Gui+;, s: 'Gui+:'}
+  - {t: Gui+', s: Gui+"}
   - Gui+$$mdi:apple-keyboard-shift$$
   - Gui+Z
   - Gui+X
   - Gui+C
   - Gui+V
   - Gui+B
-  - N
-  - _
-  - +
-  - '|'
+  - Gui+N
+  - Gui+M
+  - {t: 'Gui+,', s: Gui+<}
+  - Gui+.
   - '?'
   - $$mdi:apple-keyboard-shift$$
   - Gui+$$mdi:apple-keyboard-option$$
