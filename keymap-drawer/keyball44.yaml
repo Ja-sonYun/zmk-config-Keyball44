@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -43,7 +43,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - SYM
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - FUNC_AND_SNIPE
   SYM:
   - $$mdi:keyboard-esc$$
