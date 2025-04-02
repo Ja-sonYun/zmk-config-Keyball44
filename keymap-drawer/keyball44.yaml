@@ -42,8 +42,8 @@ layers:
   - NUM_AND_SCROLL
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYM}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
   - FUNC_AND_SNIPE
   SYM:
   - $$mdi:keyboard-esc$$
