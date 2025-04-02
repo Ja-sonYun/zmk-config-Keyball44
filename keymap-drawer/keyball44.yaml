@@ -77,10 +77,10 @@ layers:
   - V
   - B
   - N
-  - {t: '-', s: _}
+  - M
   - {t: '=', s: +}
+  - {t: '-', s: _}
   - {t: \, s: '|'}
-  - '?'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -123,9 +123,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
-  - <
-  - '>'
-  - '?'
+  - {t: '=', s: +}
+  - {t: '-', s: _}
+  - {t: \, s: '|'}
   - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
