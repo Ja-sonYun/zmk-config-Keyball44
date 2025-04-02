@@ -78,7 +78,7 @@
 &kp ESC           &kp Q             &kp W  &kp E      &kp R      &kp T                 &kp Y  &kp U           &kp UP_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
 &kp LEFT_CONTROL  &kp A             &kp S  &kp D      &kp F      &kp G                 &kp H  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp SEMICOLON      &kp SINGLE_QUOTE
 &kp LEFT_SHIFT    &kp Z             &kp X  &kp C      &kp V      &kp B                 &kp N  &kp MINUS       &kp EQUAL     &kp BACKSLASH     &kp QUESTION       &kp RIGHT_SHIFT
-&kp LEFT_ALT      &kp LEFT_COMMAND  &mo 2  &kp SPACE  &mkp LCLK             &mkp RCLK  &none                                                                     &trans
+&kp LEFT_ALT      &kp LEFT_COMMAND  &mo 2  &kp SPACE  &mkp RCLK             &mkp LCLK  &none                                                                     &trans
             >;
         };
 
